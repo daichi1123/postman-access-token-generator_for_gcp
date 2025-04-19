@@ -73,7 +73,7 @@ const createAccessToken = async (KJUR) => {
     return accessToken;
 }
 
-const jsrsasignUrl = "https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/8.0.20/jsrsasign-all-min.js"
+const jsrsasignUrl = "https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/11.1.0/jsrsasign-all-min.js"
 pm.sendRequest(jsrsasignUrl, async function (err, response) {
     if (err) {
         console.log("Error fetching the script:", err);
